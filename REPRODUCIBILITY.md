@@ -1,8 +1,8 @@
 # Reproducibility Guide
 
-This file lists the scripts and certificate files supporting the manuscript.
-The paper cites the repository rather than listing these filenames in the
-main text.
+This file lists the scripts and certificate files supporting the computational
+checks in the manuscript.  The repository is intended for code and selected
+machine-readable certificates, not for storing the manuscript itself.
 
 ## Cube Construction Checks
 
@@ -46,14 +46,3 @@ Selected machine-readable outputs:
 - `qls_spectrum/qls5_c10_deterministic_probe_complete.json`
 - `qls_spectrum/qls5_c11_incremental_old_and_new_ok_complete_reclassified.json`
 - `qls_spectrum/exact_qls5_c12_construction.json`
-
-The companion report `qls_spectrum/qls5_low_cardinality_report.tex`
-contains the detailed certificate statistics.
-
-## Manuscript
-
-- `quantum_latin_cubes.tex` is the LaTeX source.
-- `quantum_latin_cubes.pdf` is the compiled manuscript.
-
-The manuscript uses `amsart`, `amsmath`, `amssymb`, `amsthm`, `geometry`,
-`booktabs`, `url`, and `hyperref`.

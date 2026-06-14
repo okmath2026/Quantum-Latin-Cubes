@@ -1,7 +1,7 @@
 # The Maximal Cardinality of Quantum Latin Cubes
 
-This repository contains the manuscript, verification scripts, and selected
-machine-readable certificates for the paper
+This repository contains verification scripts and selected machine-readable
+certificates supporting the paper
 
 **The Maximal Cardinality of Quantum Latin Cubes: A Complete Solution**.
 
@@ -10,8 +10,6 @@ maximal cardinality `v^3` exists if and only if `v = 1` or `v >= 4`.
 
 ## Contents
 
-- `quantum_latin_cubes.tex` - LaTeX source of the manuscript.
-- `quantum_latin_cubes.pdf` - compiled manuscript.
 - `verify_uniform_pair.py` - checks the prime tri-clock construction for
   selected primes.
 - `verify_composite.py` - checks the composite twisted-product construction
@@ -35,10 +33,6 @@ python qls_spectrum/exact_qls5_c12_construction.py
 
 See `REPRODUCIBILITY.md` for the full list of scripts and certificate files
 referenced by the manuscript's computational note.
-
-The manuscript can be compiled with a standard LaTeX engine supporting
-`amsart`, `amsmath`, `amssymb`, `amsthm`, `geometry`, `booktabs`, and
-`url`, and `hyperref`.
 
 ## Notes
 
