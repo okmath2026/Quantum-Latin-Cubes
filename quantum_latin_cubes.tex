@@ -60,7 +60,6 @@ Zhenjiang 212013, Jiangsu, China}
 \begin{document}
 
 \begin{abstract}
-% Plan: Define QLC and state the complete existence theorem, its constructions, and its structural consequences.
 A quantum Latin cube (QLC) of order $v$ is a $v\times v\times v$ array of
 unit vectors in $\C^v$ such that every line is an orthonormal basis.  Its
 cardinality is the number of projectively distinct entries, at most $v^3$.
@@ -132,15 +131,15 @@ $(p,q)\ne(2,2)$, the smallest open orders being $v=5,6,7,9,10$.  In this paper w
 resolve all remaining orders and obtain a complete answer, which exactly
 parallels the dichotomy known for squares.
 
-It is important that this is a cube endpoint problem rather than another
-square-spectrum theorem.  The recent square results cited above settle the
-maximal endpoint for $\QLS(v)$ and, for several infinite families, long or
-complete intervals of square cardinalities.  They do not construct
-three-dimensional arrays with $v^3$ projectively distinct entries in the
-prime and $pq$ cases left open by Theorem~\ref{thm:zzlc}.  Conversely, our
-main theorem determines only the maximal endpoint for cubes; it does not
-claim a dense spectrum for $\QLC(v)$, nor does it classify orthogonal
-families of quantum Latin squares or cubes.
+This is a cube endpoint problem, not another square-spectrum theorem.  The
+recent square results cited above settle the maximal endpoint for
+$\QLS(v)$ and, for several infinite families, long or complete intervals of
+square cardinalities.  They do not construct three-dimensional arrays with
+$v^3$ projectively distinct entries in the prime and $pq$ cases left open by
+Theorem~\ref{thm:zzlc}.  Conversely, our main theorem determines only the
+maximal endpoint for cubes; it does not claim a dense spectrum for
+$\QLC(v)$, nor does it classify orthogonal families of quantum Latin squares
+or cubes.
 
 \begin{theorem}\label{thm:main}
 A quantum Latin cube of order $v$ with maximal cardinality $v^3$ exists if
@@ -166,8 +165,8 @@ only if the four functions $1,\,s,\,\pi(s),\,g(s)$ are linearly independent
 over the field $\F_p$.  More generally, its cardinality is $p^r$, where $r$
 is the rank of $s,\pi(s),g(s)$ modulo the constant functions; this determines
 the exact tri-clock spectrum $\{p,p^2,p^3\}$ for every $p\ge5$.  A single
-explicit pair --- $\pi$ the transposition
-of $p-2$ and $p-1$, and $g$ the $3$-cycle $0\mapsto1\mapsto2\mapsto0$ ---
+explicit pair, with $\pi$ the transposition
+of $p-2$ and $p-1$ and $g$ the $3$-cycle $0\mapsto1\mapsto2\mapsto0$,
 satisfies this condition for \emph{every} prime $p\ge5$
 (Lemma~\ref{lem:pair}), so the construction is completely explicit and its
 verification is elementary.
@@ -185,8 +184,8 @@ distinct whenever one $2\times2$ double difference is a unit in $\Z_v$
 family, not a single example: for each factorisation $v=mn$ with $m,n\ge2$
 and $v\ge6$ there are at least $v\varphi(v)(v-4)!$ admissible eigenvalue
 assignments (Corollary~\ref{cor:many-composite}; inequivalence is not
-asserted).  The layered architecture is not an ansatz
-chosen for convenience: we prove a rigidity theorem
+asserted).  The layered architecture is also forced in the following
+precise sense: we prove a rigidity theorem
 (Theorem~\ref{thm:rigidity}) showing that an array of the form
 $(V^kq_{ij})_{i,j,k}$ is a quantum Latin cube \emph{precisely when} the
 spectrum of $V$ is a rotated full set of $v$-th roots of unity and the layer
@@ -198,9 +197,9 @@ Shan~\cite[Thm.~3.1]{ZZTS2025} from phased Fourier matrices
 (Corollary~\ref{cor:flatqls} and Remark~\ref{rem:zzts}).  Those squares are
 unbiased to a fixed basis, and the rigidity theorem identifies this
 flatness as precisely the property that makes a maximal-cardinality square
-liftable to a cube --- a structural explanation of why this family, rather
-than any other known family of maximal-cardinality squares, is the right
-base for cube constructions.
+liftable to a cube.  This gives a structural explanation for why this
+family, rather than any other known family of maximal-cardinality squares,
+is the right base for cube constructions.
 
 The same framework gives two obstructions that delimit the reach of these
 methods.  Every layered cube has cardinality divisible by its order
@@ -241,7 +240,7 @@ two endpoints; it is a mixture of dense high-divisibility results, isolated
 small-order constructions, and finite obstruction problems.  This is the
 context in which the certified order-five interval below should be read.
 
-We separate throughout three levels of evidence.  The maximal-cardinality
+We distinguish throughout three levels of evidence.  The maximal-cardinality
 cube theorem is proved by explicit formulae and finite algebraic checks.  The
 order-five low-spectrum theorem is computer-assisted: its nonexistence
 claims depend on a finite exhaustive enumeration of labelled
@@ -827,9 +826,10 @@ sufficient for maximal cardinality (the proof of
 Corollary~\ref{cor:flatqls} is an equivalence).  Second, all entries of
 these squares are unbiased to the computational basis, and by
 Theorem~\ref{thm:layered} this flatness is exactly the property required
-of the layer of a quantum Latin cube --- which is why this family, rather
-than any other known family of maximal-cardinality squares, lifts to the
-cubes of Corollary~\ref{cor:prime}.  By Musto's correspondence between
+of the layer of a quantum Latin cube.  This identifies the specific
+structural reason why this family, rather than any other known family of
+maximal-cardinality squares, lifts to the cubes of
+Corollary~\ref{cor:prime}.  By Musto's correspondence between
 quantum Latin squares and mutually unbiased bases~\cite{Musto2017}, flat
 squares are also a natural source of MUB-type structures; we do not pursue
 this here.
@@ -972,11 +972,12 @@ $(\alpha,\beta,\gamma)\ne(0,0,0)$ --- equivalently, if for every prime
 $q\mid v$ the reductions $\{\mathbf1,\iota,\pi,g\}\bmod q$ are linearly
 independent over $\F_q$ as functions on $\Z_v$.  Proposition~\ref{prop:four}
 shows this fails for $v=4$; an exhaustive computer search confirms that no
-pair of permutations of $\Z_4$ works.  For $v=6$ pairs do exist --- e.g.\
+pair of permutations of $\Z_4$ works.  For $v=6$ pairs do exist; for example,
 $\pi=(0,1,2,3,5,4)$, $g=(0,1,2,4,3,5)$ give a tri-clock $\QLC(6)$ of
-cardinality $216$, verified by machine --- so the twisted-product
+cardinality $216$, as verified by the accompanying script.  Thus the
+twisted-product
 construction of Section~\ref{sec:composite} and the tri-clock construction
-overlap at many composite orders.  A characterisation of the orders $v$
+overlap at least at order $6$.  A characterisation of the orders $v$
 admitting tri-clock pairs would be of independent combinatorial interest.
 \end{remark}
 
