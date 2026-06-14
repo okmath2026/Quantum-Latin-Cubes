@@ -33,9 +33,12 @@ python verify_qlc3_rigidity.py
 python qls_spectrum/exact_qls5_c12_construction.py
 ```
 
+See `REPRODUCIBILITY.md` for the full list of scripts and certificate files
+referenced by the manuscript's computational note.
+
 The manuscript can be compiled with a standard LaTeX engine supporting
 `amsart`, `amsmath`, `amssymb`, `amsthm`, `geometry`, `booktabs`, and
-`hyperref`.
+`url`, and `hyperref`.
 
 ## Notes
 

@@ -2,6 +2,7 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage[margin=1.1in]{geometry}
 \usepackage{booktabs}
+\usepackage{url}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
 
 \makeatletter
@@ -1096,7 +1097,8 @@ The exact constructions and Lemma~\ref{lem:qls5-obstructions} are ordinary
 mathematical proofs.  The exclusions of cardinalities $8$--$11$ additionally
 depend on the exhaustiveness and correctness of the enumeration programs.
 The machine-readable outputs record zero unclassified terminal types; the
-entry points and certificate files are listed in the computational note.
+public repository cited in the computational note contains the entry-point
+scripts, certificates, and a reproducibility guide.
 \end{remark}
 
 \begin{construction}[An exact cardinality-$12$ square]\label{con:qls5-c12}
@@ -1235,27 +1237,16 @@ least-squares and alternating-projection experiments mentioned in
 Remarks~\ref{rem:qls5-next} and Problems~\ref{prob:spectrum},
 \ref{prob:flat-spectrum} are exploratory only.
 
-Machine-verification scripts for the cube constructions accompany this draft
-in the main source directory and include
-\path{verify_uniform_pair.py} (tri-clock cubes for
-$p=5,7,11,13,17$), \path{verify_composite.py} (twisted-product cubes for
-$v=6,9,10$), \path{triclock_experiments.py} (the exhaustive order-$4$
-search, the order-$6$ pair, and the count of $8000$ valid pairs
-$(\pi,g)$ in $S_5\times S_5$), and \path{verify_qlc3_rigidity.py} (the
-order-$3$ rigidity check).  The order-five square-spectrum scripts and
-machine-readable certificates are in the companion directory
-\path{qls_spectrum/}.  Its principal entry points are:
-\begin{itemize}
-\item \path{c8_classification_certificate.py} and
-\path{qls5_c9_deterministic_certificate.py};
-\item \path{qls5_c10_deterministic_probe.py} and
-\path{qls5_incremental_probe.py};
-\item \path{qls_support_obstruction_general.py} and
-\path{exact_qls5_c12_construction.py}.
-\end{itemize}
-The corresponding JSON outputs record zero unclassified terminal types.
-The companion report \path{qls5_low_cardinality_report.tex} records the full
-certificate statistics.
+The verification scripts, selected machine-readable certificates, compiled
+manuscript, and a reproducibility guide are available at
+\begin{center}
+\url{https://github.com/okmath2026/Quantum-Latin-Cubes}.
+\end{center}
+The guide identifies the scripts used for the cube constructions, the
+order-three and order-four checks, and the order-five square-spectrum
+certificates.  The corresponding certificate outputs record zero
+unclassified terminal types, and the companion report in the repository
+records the full certificate statistics.
 
 \begin{thebibliography}{10}
 
