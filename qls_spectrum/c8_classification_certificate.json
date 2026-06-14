@@ -1,0 +1,20 @@
+{
+  "statement": "All normalized QLS(5) cardinality-8 label patterns are obstructed.",
+  "normalization": "first row is e0,e1,e2,e3,e4; new projective classes are 5,6,7",
+  "unique_patterns": 34560,
+  "unobstructed_patterns": 0,
+  "sha256": "8837bc4dd3c92ab424d30c4f1be7f20f235de8e87cee6563d6c202a609ed1a75",
+  "obstruction_counts": {
+    "same_2d_path": 8640,
+    "same_2d_triangle": 23040,
+    "two_2d_one_3d_triangle": 2880
+  },
+  "support_dimension_counts": {
+    "(2, 2, 2)": 31680,
+    "(2, 2, 3)": 2880
+  },
+  "new_edge_counts": {
+    "2": 8640,
+    "3": 25920
+  }
+}

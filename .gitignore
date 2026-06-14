@@ -1,0 +1,23 @@
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+*.fls
+*.fdb_latexmk
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local build folders
+build/
+build_current/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

@@ -1,0 +1,1925 @@
+{
+  "active_graph_types": 14,
+  "graph_summaries": [
+    {
+      "graph_index": 1,
+      "active_edges": 4,
+      "row_degrees": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "col_degrees": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "label_patterns": 24,
+      "support_edge_types": 3
+    },
+    {
+      "graph_index": 2,
+      "active_edges": 6,
+      "row_degrees": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "col_degrees": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "label_patterns": 80,
+      "support_edge_types": 12
+    },
+    {
+      "graph_index": 3,
+      "active_edges": 7,
+      "row_degrees": [
+        3,
+        2,
+        2,
+        0
+      ],
+      "col_degrees": [
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      "label_patterns": 120,
+      "support_edge_types": 26
+    },
+    {
+      "graph_index": 4,
+      "active_edges": 9,
+      "row_degrees": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "col_degrees": [
+        3,
+        2,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 6,
+      "support_edge_types": 6
+    },
+    {
+      "graph_index": 5,
+      "active_edges": 9,
+      "row_degrees": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "col_degrees": [
+        3,
+        2,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 2,
+      "support_edge_types": 2
+    },
+    {
+      "graph_index": 6,
+      "active_edges": 8,
+      "row_degrees": [
+        3,
+        3,
+        2,
+        0
+      ],
+      "col_degrees": [
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      "label_patterns": 272,
+      "support_edge_types": 24
+    },
+    {
+      "graph_index": 7,
+      "active_edges": 10,
+      "row_degrees": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "col_degrees": [
+        3,
+        3,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 24,
+      "support_edge_types": 6
+    },
+    {
+      "graph_index": 8,
+      "active_edges": 10,
+      "row_degrees": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "col_degrees": [
+        3,
+        3,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 7,
+      "support_edge_types": 6
+    },
+    {
+      "graph_index": 9,
+      "active_edges": 10,
+      "row_degrees": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "col_degrees": [
+        3,
+        3,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 10,
+      "support_edge_types": 10
+    },
+    {
+      "graph_index": 10,
+      "active_edges": 9,
+      "row_degrees": [
+        3,
+        3,
+        3,
+        0
+      ],
+      "col_degrees": [
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      "label_patterns": 1008,
+      "support_edge_types": 19
+    },
+    {
+      "graph_index": 11,
+      "active_edges": 10,
+      "row_degrees": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "col_degrees": [
+        4,
+        2,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 6,
+      "support_edge_types": 6
+    },
+    {
+      "graph_index": 12,
+      "active_edges": 11,
+      "row_degrees": [
+        4,
+        3,
+        2,
+        2
+      ],
+      "col_degrees": [
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 8,
+      "support_edge_types": 2
+    },
+    {
+      "graph_index": 13,
+      "active_edges": 11,
+      "row_degrees": [
+        4,
+        3,
+        2,
+        2
+      ],
+      "col_degrees": [
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 4,
+      "support_edge_types": 2
+    },
+    {
+      "graph_index": 14,
+      "active_edges": 12,
+      "row_degrees": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "col_degrees": [
+        4,
+        4,
+        2,
+        2,
+        0
+      ],
+      "label_patterns": 16,
+      "support_edge_types": 2
+    }
+  ],
+  "label_pattern_count": 1587,
+  "support_edge_type_count": 97,
+  "unclassified_count": 0,
+  "reason_type_counts": {
+    "clique_union_dim": 47,
+    "same_2d_basis_common_neighbor": 33,
+    "same_2d_two_step": 17
+  },
+  "reason_label_pattern_counts": {
+    "clique_union_dim": 1451,
+    "same_2d_basis_common_neighbor": 44,
+    "same_2d_two_step": 92
+  },
+  "records": [
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          6,
+          5,
+          7
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 168,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 704,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 144,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 4,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 136,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 8), (7, 8)))",
+      "pattern_count": 24,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          7,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 8), (6, 7)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          7
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          7
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (6, 7), (6, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          7
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1)), ((5, 6), (6, 8), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 2)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 16,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 16,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 3)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 4)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 16,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 4)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1), (0, 1, 4)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 12,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1, 3), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 10,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1, 4), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 2,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 1, 4), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 2), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 10,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 2), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 2), (0, 2)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 3), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (0, 3), (0, 3)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1), (1, 3), (1, 3)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          1,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 2), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 2), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 10,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 2), (0, 1, 4), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 8), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          1,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 3), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 3), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 3), (0, 1, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 8), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          1,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 1, 4), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 1), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 3,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 1), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 1), (0, 2)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          6,
+          7
+        ],
+        "common_neighbor": 5,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 2), (0, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 15,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 1), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 1), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 1), (0, 3)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 1), (0, 3)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 3), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          6,
+          7
+        ],
+        "common_neighbor": 5,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (0, 3), (0, 3), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1), (1, 2), (0, 1), (1, 2)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          1,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          7,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 10,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          6,
+          7,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          7,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          6,
+          7,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 2), (0, 1), (0, 1), (0, 1, 3)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          6,
+          7
+        ],
+        "common_neighbor": 5,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          1,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          7,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 4,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          6,
+          7,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          7,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 12,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 3), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          6,
+          7,
+          8
+        ],
+        "support": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "type": "(((0, 1, 4), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 6,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 4), (0, 1), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 10,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          6,
+          7,
+          8
+        ],
+        "union_dim": 2,
+        "clique_size": 3
+      }
+    },
+    {
+      "type": "(((0, 1, 4), (0, 1), (0, 1), (0, 1, 2)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          6,
+          7
+        ],
+        "common_neighbor": 5,
+        "basis_support": [
+          0,
+          1
+        ],
+        "neighbor_support": [
+          0,
+          1,
+          4
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 1), (0, 1), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 2,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 1), (0, 1), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 13,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 1), (0, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 3,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 1), (0, 2), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 2,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 1), (0, 2), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 2), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 2), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 2), (0, 2), (0, 2)), ((5, 6), (5, 7), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          8
+        ],
+        "support": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 2), (0, 3), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 2), (0, 3), (0, 3)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 3), (0, 2), (0, 3)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          3
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 2), (0, 3), (0, 3), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          6,
+          7
+        ],
+        "common_neighbor": 5,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 1), (0, 1), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 1), (0, 1), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 1), (0, 1), (0, 3)), ((5, 6), (5, 7), (5, 8), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          8
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 1), (0, 3), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 2), (0, 3), (0, 2)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 2), (0, 3), (0, 2)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          2
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 3), (0, 1), (0, 1)), ((5, 6), (5, 7), (5, 8), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "clique_union_dim",
+      "witness": {
+        "clique": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "union_dim": 3,
+        "clique_size": 4
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 3), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((0, 3), (0, 3), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          0,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((1, 2), (1, 2), (0, 1), (0, 1)), ((5, 6), (5, 7), (6, 7), (7, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          6
+        ],
+        "common_neighbor": 7,
+        "basis_support": [
+          1,
+          2
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    },
+    {
+      "type": "(((1, 2), (1, 2), (1, 2), (1, 2)), ((5, 6), (5, 7), (6, 8), (7, 8)))",
+      "pattern_count": 8,
+      "reason": "same_2d_two_step",
+      "witness": {
+        "path": [
+          5,
+          6,
+          8
+        ],
+        "support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "(((1, 3), (0, 1), (1, 3), (0, 1)), ((5, 6), (5, 7), (6, 7), (6, 8)))",
+      "pattern_count": 1,
+      "reason": "same_2d_basis_common_neighbor",
+      "witness": {
+        "basis_edge": [
+          5,
+          7
+        ],
+        "common_neighbor": 6,
+        "basis_support": [
+          1,
+          3
+        ],
+        "neighbor_support": [
+          0,
+          1
+        ],
+        "outside_support_size": 1
+      }
+    }
+  ]
+}
